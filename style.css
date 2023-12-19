@@ -154,3 +154,110 @@
       5px 5px 15px rgba(0,255,0,0.5);
   }
   /* end home */
+
+  /* plan */
+
+  .plan-body{
+    background: rgba(0, 0, 0, 0.7) url(images/bg.png) center center fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   #caloriesInput {
+    width: 160px; 
+    height: 30px; 
+  }
+  
+  .gen-container {
+    max-width: 800px;
+    margin: 200px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .gen-container h1{
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+  .gen-container h2{
+    font-size: 30px;
+    color: green;
+  }
+  
+  h1 {
+    font-size: var(--h1-font);     
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: var(--p-font);
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: var(--k-font);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: var(--p-font);
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--main-color);
+  }
+  
+  #mealContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction:row; 
+    align-items: center; 
+    gap: 30px;
+    margin-left: -220px;
+  }
+  
+  .meal {
+    text-align: center;
+    width: 100%; 
+    margin-top: 20px; 
+  }
+  
+  .meal img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .meal h2 {
+    font-size: var(--h2-font);
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .meal p {
+    font-size: var(--p-font);
+    margin-bottom: 5px;
+  }
+  
+  .meal .description {
+    font-style: italic;
+  }
+  
+  a.recipe-link {
+    color: var(--main-color)
+  }
+
+  /* end plan */
