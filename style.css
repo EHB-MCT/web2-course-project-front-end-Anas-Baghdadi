@@ -161,6 +161,7 @@
     background: rgba(0, 0, 0, 0.7) url(images/bg.png) center center fixed;
     background-size: cover;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-attachment: fixed;
    }
 
    #caloriesInput {
