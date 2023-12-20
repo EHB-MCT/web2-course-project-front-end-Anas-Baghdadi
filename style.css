@@ -507,5 +507,22 @@
   
   /* end recipes */
 
+  /* favorites */
+
+  .fav-body{
+    background: rgba(0, 0, 0, 0.7) url(images/2564935.png) center center fixed;
+    background-size: cover;
+  }
+  
+  #favoriteRecipeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px 400px ;
+  }
+
+  
+  /* end favorite */
+
  
   
