@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const mealForm = document.getElementById("mealForm");
   mealList = document.getElementById("mealList");
 
+
   // Add an event listener to the meal form for form submission
   mealForm.addEventListener("submit", async function (event) {
     // Prevent the default form submission behavior
@@ -16,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const name = document.getElementById("name").value;
     const description = document.getElementById("description").value;
     const calories = document.getElementById("calories").value;
+    
 
     // Retrieve the user information from the session storage
     const user = JSON.parse(sessionStorage.getItem("user"));
@@ -88,7 +90,7 @@ async function fetchAndDisplayMeals() {
 }
 
 // Function to delete a meal
-async function deleteMeal(mealId) {
+window.deleteMeal = async function (mealId) {
   try {
     // Send a DELETE request to remove the specified meal
     const response = await fetch(`http://localhost:4000/meal/${mealId}`, {

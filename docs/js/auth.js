@@ -1,0 +1,1 @@
+(()=>{let e=JSON.parse(sessionStorage.getItem("user"));e?document.getElementById("welcomemessage").innerText=`Welcome ${e.username}!`:window.location.href="/frontend/login.html"})();
